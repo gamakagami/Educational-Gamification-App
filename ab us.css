@@ -1,0 +1,41 @@
+.container{
+    background-color: transparent;
+    padding-left: 8%;
+    padding-right: 8%;
+    width:100%;
+    text-align: left;
+    height:100%;
+    box-sizing: border-box;
+}
+body{
+    background-color:greenyellow ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.navbar{
+    height: 12%;
+    width:100%;
+    display: flex;  
+    align-items: center;
+}
+.menu-icon{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav{
+    flex:1;
+    text-align: right;
+    text-size-adjust: 100px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+}
